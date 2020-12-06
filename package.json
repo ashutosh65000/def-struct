@@ -4,13 +4,18 @@
   "description": "This NPM package provides the default structure of the project with basic and needful redundant codes that are necessary in every project setup.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Ashutosh Srivastava",
   "license": "MIT",
   "dependencies": {
+    "edit-json-file": "^1.5.0",
+    "fs": "0.0.1-security",
     "inquirer": "^7.3.3",
+    "insert-line": "^1.1.0",
+    "node-exec-promise": "^1.0.2",
+    "ora": "^5.1.0",
     "path": "^0.12.7"
   }
 }

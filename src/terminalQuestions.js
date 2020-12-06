@@ -5,7 +5,6 @@ module.exports = async () => {
     const userValues = await terminal.prompt([
         // Question-1
         {
-
             name: "name",
             type: "input",
             message: "Provide a Project name",
@@ -47,8 +46,8 @@ module.exports = async () => {
             name: "pkgManager",
             type: "list",
             message: "Choose a Package Manager",
-            choices: ["npm", "yarn"],
-            default: "npm"
+            choices: ["NPM", "Yarn"],
+            default: "NPM"
         },
         // Question-6
         {
@@ -72,10 +71,16 @@ module.exports = async () => {
         },
         // Question-9
         {
+            name: "eslint",
+            type: "confirm",
+            message: "Initialise Prettier or EsLint?"
+          },
+        // Question-10
+        {
             name: "linter",
             type: "list",
             message: "Want to initialize the linter?",
-            choices: ["eslint", "tslint", "none"],
+            choices: ["eslint", "none"],
             default: "eslint"
         }
     ]);
