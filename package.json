@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "description": "This NPM package provides the default structure of the project with basic and needful redundant codes that are necessary in every project setup.",
   "main": "index.js",
+  "bin": "index.js",
   "scripts": {
-    "start": "node index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
   "author": "Ashutosh Srivastava",
   "license": "MIT",
