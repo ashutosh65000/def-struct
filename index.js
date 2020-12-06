@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 const terminal = require("inquirer");
 const terminalQues = require("./src/terminalQuestions");
 const { structuringFolders, npmInstall, yarnInstall, gitInitialize, addListen, openVsCode } = require("./src/structuring/basicStructuring");
