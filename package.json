@@ -1,6 +1,6 @@
 {
   "name": "def-struct",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "This NPM package provides the default structure of the project with basic and needful redundant codes that are necessary in every project setup.",
   "main": "index.js",
   "bin": "index.js",
