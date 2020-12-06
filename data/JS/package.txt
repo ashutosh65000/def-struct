@@ -1,0 +1,21 @@
+{
+  "name": "",
+  "version": "",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "build": "node server.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "latest"
+  },
+  "dependencies": {
+    "express": "latest",
+    "body-parser": "latest",
+    "morgan": "latest",
+    "cors": "latest"
+  }
+}
