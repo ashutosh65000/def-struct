@@ -1,0 +1,7 @@
+app.listen(process.env.LISTENER_PORT, err=>{
+    if(err){
+        console.log(err);
+    } else {
+        console.log("Successfully started on port ",process.env.LISTENER_PORT);
+    }
+});
